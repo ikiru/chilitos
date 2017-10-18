@@ -1,0 +1,83 @@
+// imports
+@import url("https://fonts.googleapis.com/css?family=Rubik|Roboto");
+
+// variables
+$primary-color: #cf4232;
+$secondary-color: #eb7f23;
+$third-color: #fac023;
+$font1-color: #068675;
+$font2-color: #6b202e;
+$headline-font: Rubik;
+$text-font: Roboto;
+
+// Showcase Carousel
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headline-font;
+}
+p {
+  font-family: $text-font;
+}
+
+.navmenu {
+  background-color: $font2-color;
+}
+
+.carousel-inner {
+  p {
+    margin-bottom: 175px;
+  }
+}
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url("../img/margarita.jpg");
+  background-size: cover;
+  p,
+  h1 {
+    color: $third-color;
+    text-shadow: 2px 2px 2px $secondary-color;
+  }
+}
+
+.carousel-image-2 {
+  background: url("../img/burrito.jpg");
+  background-size: cover;
+  p,
+  h1 {
+    color: $font1-color;
+    text-shadow: 2px 2px 2px $font2-color;
+  }
+}
+
+.carousel-image-3 {
+  background: url("../img/salsa.jpg");
+  background-size: cover;
+  p,
+  h1 {
+    color: $secondary-color;
+    text-shadow: 2px 2px 2px $font1-color;
+  }
+}
+
+#history {
+  background-color: $primary-color;
+}
+
+#menu {
+  background-color: $secondary-color;
+}
+
+#catering {
+  background-color: $third-color;
+}
+
+#contact {
+  color: $font1-color;
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik|Roboto");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Rubik; }
+
+p {
+  font-family: Roboto; }
+
+.navmenu {
+  background-color: #6b202e; }
+
+.carousel-inner p {
+  margin-bottom: 175px; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url("../img/margarita.jpg");
+  background-size: cover; }
+  .carousel-image-1 p,
+  .carousel-image-1 h1 {
+    color: #fac023;
+    text-shadow: 2px 2px 2px #eb7f23; }
+
+.carousel-image-2 {
+  background: url("../img/burrito.jpg");
+  background-size: cover; }
+  .carousel-image-2 p,
+  .carousel-image-2 h1 {
+    color: #068675;
+    text-shadow: 2px 2px 2px #6b202e; }
+
+.carousel-image-3 {
+  background: url("../img/salsa.jpg");
+  background-size: cover; }
+  .carousel-image-3 p,
+  .carousel-image-3 h1 {
+    color: #eb7f23;
+    text-shadow: 2px 2px 2px #068675; }
+
+#history {
+  background-color: #cf4232; }
+
+#menu {
+  background-color: #eb7f23; }
+
+#catering {
+  background-color: #fac023; }
+
+#contact {
+  color: #068675; }
