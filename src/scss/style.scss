@@ -1,13 +1,15 @@
 // imports
-@import url("https://fonts.googleapis.com/css?family=Rubik|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Courgette|Roboto");
 
 // variables
 $primary-color: #cf4232;
 $secondary-color: #eb7f23;
 $third-color: #fac023;
-$font1-color: #068675;
-$font2-color: #6b202e;
-$headline-font: Rubik;
+$fourth-color: #068675;
+$fifth-color: #6b202e;
+$font-color: #fffcf9;
+$font-color-two: #000;
+$headline-font: Courgette;
 $text-font: Roboto;
 
 // Showcase Carousel
@@ -21,10 +23,12 @@ h6 {
 }
 p {
   font-family: $text-font;
+  padding: 0px;
+  margin: 0px;
 }
 
-.navmenu {
-  background-color: $font2-color;
+.bar {
+  background-color: $fifth-color;
 }
 
 .carousel-inner {
@@ -51,8 +55,8 @@ p {
   background-size: cover;
   p,
   h1 {
-    color: $font1-color;
-    text-shadow: 2px 2px 2px $font2-color;
+    color: $fourth-color;
+    text-shadow: 2px 2px 2px $fifth-color;
   }
 }
 
@@ -62,7 +66,7 @@ p {
   p,
   h1 {
     color: $secondary-color;
-    text-shadow: 2px 2px 2px $font1-color;
+    text-shadow: 2px 2px 2px $fourth-color;
   }
 }
 
@@ -72,6 +76,26 @@ p {
 
 #menu {
   background-color: $secondary-color;
+  .monday {
+    background-color: $fourth-color;
+    color: $font-color;
+  }
+  .tuesday {
+    background-color: $third-color;
+    color: $font-color-two;
+  }
+  .wednesday {
+    background-color: $fourth-color;
+    color: $font-color;
+  }
+  .thursday {
+    background-color: $third-color;
+    color: $font-color-two;
+  }
+  .friday {
+    background-color: $fourth-color;
+    color: $font-color;
+  }
 }
 
 #catering {
@@ -79,5 +103,5 @@ p {
 }
 
 #contact {
-  color: $font1-color;
+  color: $fourth-color;
 }

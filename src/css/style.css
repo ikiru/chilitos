@@ -1,16 +1,18 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Courgette|Roboto");
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: Rubik; }
+  font-family: Courgette; }
 
 p {
-  font-family: Roboto; }
+  font-family: Roboto;
+  padding: 0px;
+  margin: 0px; }
 
-.navmenu {
+.bar {
   background-color: #6b202e; }
 
 .carousel-inner p {
@@ -48,6 +50,21 @@ p {
 
 #menu {
   background-color: #eb7f23; }
+  #menu .monday {
+    background-color: #068675;
+    color: #fffcf9; }
+  #menu .tuesday {
+    background-color: #fac023;
+    color: #000; }
+  #menu .wednesday {
+    background-color: #068675;
+    color: #fffcf9; }
+  #menu .thursday {
+    background-color: #fac023;
+    color: #000; }
+  #menu .friday {
+    background-color: #068675;
+    color: #fffcf9; }
 
 #catering {
   background-color: #fac023; }
